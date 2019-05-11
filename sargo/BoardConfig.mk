@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Allow Carbon config to override others
+-include device/google/bonito/sargo/BoardConfigCarbon.mk
+
 TARGET_BOOTLOADER_BOARD_NAME := sargo
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 20
 
