@@ -12,3 +12,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/google/bonito/nexus.xml:system/etc/sysconfig/nexus.xml \
     device/google/bonito/pixel.xml:system/etc/sysconfig/pixel.xml
+
+DEVICE_PACKAGE_OVERLAYS += device/google/bonito/overlay-carbon
