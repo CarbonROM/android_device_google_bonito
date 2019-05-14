@@ -1,4 +1,5 @@
 # Common board config for bonito, sargo
+BOARD_PREBUILT_VENDORIMAGE := true
 
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
