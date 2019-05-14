@@ -2,5 +2,9 @@
   {
     "repository": "CarbonROM/android_kernel_google_bonito",
     "target_path": "kernel/google/bonito"
+  },
+  {
+    "repository": "CarbonROM/android_external_google",
+    "target_path": "external/google"
   }
 ]
