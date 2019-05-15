@@ -14,3 +14,6 @@ PRODUCT_COPY_FILES += \
     device/google/bonito/pixel.xml:system/etc/sysconfig/pixel.xml
 
 DEVICE_PACKAGE_OVERLAYS += device/google/bonito/overlay-carbon
+
+# Include GoogleServices repo if available
+include external/google/GoogleServices.mk
