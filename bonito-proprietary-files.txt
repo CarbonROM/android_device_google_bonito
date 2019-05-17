@@ -18,6 +18,7 @@ etc/firmware/music_detector.sound_model
 
 # Permissions
 etc/permissions/privapp-permissions-bonito.xml
+etc/permissions/privapp-permissions-google.xml
 
 # Radio
 -app/datastatusnotification/datastatusnotification.apk
