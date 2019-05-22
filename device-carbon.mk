@@ -7,3 +7,5 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+WITH_GMS_FI := true
